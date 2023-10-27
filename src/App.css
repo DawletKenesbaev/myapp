@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.app {
+    height: 100vh;
+    padding: 0;
+    background: rgb(43, 116, 226);
+    width: 100%;
+}
+.header {
+    height: 30%;
+    border-bottom: 1px red solid;
+}
+.footer {
+    height: 70%;
+}
