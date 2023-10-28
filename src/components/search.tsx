@@ -6,6 +6,8 @@ interface SearchProps {
   searchTerm: string;
 }
 
+
+
 interface SearchResult {
   name: string;
   description: string;
