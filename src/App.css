@@ -12,8 +12,14 @@ body {
     width: 100%;
 }
 .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 30%;
-    border-bottom: 1px red solid;
+    border-bottom: 1px solid blue;
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); /* Adjust the shadow values as needed */
+    margin: 0 auto;
+    text-align: center;
 }
 .footer {
     height: 70%;
