@@ -29,13 +29,15 @@ class Header extends Component<HeaderProps, HeaderState> {
   render() {
     return (
       <div className="header">
-        <input
-          type="text"
-          value={this.state.searchTerm}
-          onChange={this.handleInputChange}
-          placeholder="Enter search term"
-        />
-        <button onClick={this.handleSearch}>Search</button>
+        <div className='header-box'>
+          <input
+            type="text"
+            value={this.state.searchTerm}
+            onChange={this.handleInputChange}
+            placeholder="Enter search term"
+          />
+          <button onClick={this.handleSearch}>Search</button>
+        </div>
       </div>
     );
   }
