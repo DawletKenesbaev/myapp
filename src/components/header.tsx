@@ -1,6 +1,5 @@
 // Header.tsx
 import React, { Component } from 'react';
-
 interface HeaderProps {
   onSearch: (searchTerm: string) => void;
   initialSearchTerm: string;
@@ -29,15 +28,18 @@ class Header extends Component<HeaderProps, HeaderState> {
   render() {
     return (
       <div className="header">
-        <div className='header-box'>
-          <input
-            type="text"
-            value={this.state.searchTerm}
-            onChange={this.handleInputChange}
-            placeholder="Enter search term"
-          />
-          <button onClick={this.handleSearch}>Search</button>
-        </div>
+        <div className="search-container">
+            <input
+             type="text"
+             value={this.state.searchTerm}
+             onChange={this.handleInputChange}
+             className="search-input"
+             placeholder="Search"/>
+            <button  onClick={this.handleSearch} className="search-button">
+                <img className='search-img' src='https://cdn3.iconfinder.com/data/icons/feather-5/24/search-512.png'/>             
+            </button>
+         </div>
+
       </div>
     );
   }

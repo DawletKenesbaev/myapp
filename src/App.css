@@ -11,6 +11,10 @@ body {
     background: rgb(43, 116, 226);
     width: 100%;
 }
+
+/* header */
+
+
 .header {
     display: flex;
     justify-content: center;
@@ -21,6 +25,40 @@ body {
     margin: 0 auto;
     text-align: center;
 }
+
+.search-container {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 26px;
+  }
+  
+  .search-button {
+    background: #e3e2e2; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  .search-img {
+    width: 30px;
+  }
+  .fa-search {
+    font-size: 20px;
+  }
+  
 .footer {
     height: 70%;
 }
+
+/* footer */
